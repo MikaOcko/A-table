@@ -24,10 +24,12 @@ function Search() {
         // A partir de + 2 caractères dans le champ de recherhche
         value.length > 2 && setSearchTerm(value);
     };
-    console.log(searchTerm);
+
+    // console.log(recipes);
 
     return (
         <>
+
             <div className='searchBar'>
                 <input
                     type="text"
@@ -38,14 +40,15 @@ function Search() {
                 />
             </div>
 
+            {/* {searchTerm.length < 10 ? (console.log('- de 10 caractères')) : null} */}
+            {/* {searchTerm.length < 2 && console.log('Taper au moin 3 caractères')} */}
+            {/* {searchTerm === "Limonade de Coco" && console.log('WTF')} */}
+
+
+
             <div className="search__results">
-                {/* {recipes.length < 0 ?
-                    return (
-                        <p>No results found</p>
-                    );
-                    
-                    :null
-                    } */}
+                {/* {recipes.length > 0 ? console.log(recipes.length) : "ça n'existe pas"} */}
+
                 {
                     recipes.filter((val) => {
                         {/*
