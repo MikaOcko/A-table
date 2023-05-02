@@ -1,0 +1,13 @@
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar input {
+    font-size: 1.2rem;
+    border: #b53636 solid 3px;
+    margin: 1rem 3rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
