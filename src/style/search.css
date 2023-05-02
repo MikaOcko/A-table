@@ -11,3 +11,21 @@
     padding: 1rem;
     border-radius: 20px;
 }
+
+.search__results {
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__result {
+    font-size: 18px;
+    padding: .5rem 0;
+}
+
+.errorMessage {
+    color: #b53636;
+    font-weight: 600;
+}
