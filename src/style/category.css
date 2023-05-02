@@ -16,3 +16,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.category:hover {
+    background-color: #626060;
+}
+
+.category:hover h2 {
+    color: white;
+}

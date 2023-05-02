@@ -6,7 +6,7 @@ import Form from '../components/Form';
 
 const Contact = () => {
     return (
-        <div style={{ height: 68 + 'vh' }}>
+        <div>
             <Title text="Pour nous contacter" />
             <Form />
         </div>

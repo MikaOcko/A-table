@@ -23,6 +23,8 @@ function Form() {
                 </>
 
                 <textarea name="message" id="" cols="30" rows="10" placeholder='Tapez votre message ici'></textarea>
+
+                <input className="form__button" type="submit" value="Envoyer" />
             </form>
         </div>
     );

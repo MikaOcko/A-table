@@ -6,4 +6,25 @@
     align-items: centers;
 }
 
-.form input {}
+.form {
+    width: 50%;
+    height: auto;
+    display: inherit;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.form label,
+input,
+textarea {
+    padding: .5rem;
+    margin: .5rem 0;
+    border-radius: 15px;
+
+}
+
+.form__button {
+    background-color: #b53636;
+    color: white;
+}

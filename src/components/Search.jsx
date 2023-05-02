@@ -55,9 +55,7 @@ function Search() {
                 {
                     filteredRecipes.length > 2 ? (
                         filteredRecipes.map((val) => (
-                            <>
-                                <div className="search__result" key={val.id}>{val.name}</div>
-                            </>
+                            <div className="search__result" key={val.id}>{val.name}</div>
                         ))
                     ) : (
                         <p className='search__result errorMessage'>Cette recette n'est pas disponible.</p>
